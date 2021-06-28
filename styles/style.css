@@ -1,5 +1,6 @@
 :root {
-    --main-font-color: #f0e9d6;;
+    --main-font-color: #f0e9d6;
+    --section-backgrounds: rgba(0, 0, 0, 0.9);
 }
 
 @font-face {
@@ -26,7 +27,7 @@ html {
 
 .heading {
     padding: 2em;
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color:var(--section-backgrounds);
     text-align: center;
 }
 
@@ -51,12 +52,24 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 body {
-    position: fixed;
     width: 100%;
-    height: 100%;
     background-image: url("../images/restaurant.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    text-align: center;
+}
+
+.main-content {
+    max-width: 700px;
+    min-height: 500px;
+    margin: 3em auto;
+    background-color:var(--section-backgrounds);
+    padding: 1em;
+}
+
+.main-content div {
+    padding: 0.5em;
+    font-size: 1.5em;
 }
