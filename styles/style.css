@@ -1,6 +1,7 @@
 :root {
     --main-font-color: #f0e9d6;
     --section-backgrounds: rgba(0, 0, 0, 0.9);
+    --hover-font-color: #fff39a;
 }
 
 @font-face {
@@ -49,6 +50,15 @@ button, input[type="submit"], input[type="reset"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+button:hover {
+    color: var(--hover-font-color)
+}
+
+.current-nav {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
 }
 
 body {
