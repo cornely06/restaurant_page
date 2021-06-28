@@ -1,8 +1,26 @@
-#image {
+@font-face {
+    font-family: "Satisfy-Regular";
+    src: url(./Satisfy-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Satisfy-Regular";
+}
+
+.image {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url('restaurant.jpeg');
+    background-image: url("restaurant.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
