@@ -99,10 +99,13 @@ body {
 .menu {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .menu-item {
     margin: 2em;
+    max-width: 35%;
+    min-width: 15em;
 }
 
 .menu-image {
