@@ -27,7 +27,7 @@ html {
 }
 
 .header {
-    padding: 3em;
+    padding: 2em 0 1em 0;
     background-color:var(--section-backgrounds);
     text-align: center;
 }
