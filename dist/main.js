@@ -1,1 +1,1 @@
-console.log("testing");
+(()=>{"use strict";function e(e){const n=document.createElement("p");return n.textContent=e,n}!function(){const n=document.querySelector("#content");n.appendChild(e("Serving the area since 1988!")),n.appendChild(function(e){const n=document.createElement("div"),t=document.createElement("img");return t.src="./images/chef.png",n.appendChild(t),n}()),n.appendChild(e("Online ordering and indoor seating available!"))}()})();
