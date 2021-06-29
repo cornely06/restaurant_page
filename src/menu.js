@@ -4,6 +4,8 @@ function loadMenu() {
     menuContainer.classList.add('menu');
     menuContainer.appendChild(createMenuItem('Cookies', './images/cookies.jpg'));
     menuContainer.appendChild(createMenuItem('Donuts', './images/donuts.jpg'));
+    menuContainer.appendChild(createMenuItem('Breads', './images/breads.jpg'));
+    menuContainer.appendChild(createMenuItem('Cakes', './images/cakes.jpg'));
     menu.appendChild(menuContainer);
     document.querySelector('#menu').classList.add('current-nav');
 }
