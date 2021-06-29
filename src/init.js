@@ -1,3 +1,7 @@
+import loadHome from './home.js';
+import loadMenu from './menu.js';
+import loadContact from './contact.js';
+
 function createContentDiv() {
     const content = document.createElement('div');
     content.id = 'content';
@@ -53,6 +57,3 @@ function init() {
 }
 
 export default init;
-import loadHome from './home.js';
-import loadMenu from './menu.js';
-import loadContact from './contact.js';
