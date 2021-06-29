@@ -13,11 +13,9 @@ function createParagraph(content) {
 }
 
 function createImage(imageSRC) {
-    const imageContainer = document.createElement('div');
     const image = document.createElement('img');
     image.src = imageSRC;
-    imageContainer.appendChild(image);
-    return imageContainer;
+    return image;
 }
 
 export default loadHome;
