@@ -63,7 +63,7 @@ button:hover {
 
 body {
     width: 100%;
-    background-image: url("../images/restaurant.jpeg");
+    background-image: url("../images/bakery.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -82,4 +82,9 @@ body {
 .main-content div {
     padding: 0.5em;
     font-size: 1.5em;
+}
+
+.main-content img {
+    width: 100%;
+    max-width: 500px;
 }
