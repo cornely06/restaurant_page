@@ -71,7 +71,7 @@ body {
     text-align: center;
 }
 
-.main-content {
+#content {
     max-width: 700px;
     min-height: 500px;
     margin: 3em auto;
@@ -79,12 +79,12 @@ body {
     padding: 1em;
 }
 
-.main-content div {
+#content p {
     padding: 0.5em;
     font-size: 1.5em;
 }
 
-.main-content img {
+#content img {
     width: 100%;
     max-width: 500px;
 }
