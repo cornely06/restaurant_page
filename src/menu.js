@@ -24,6 +24,7 @@ function createParagraph(item) {
 
 function createImage(imageSRC) {
     const image = document.createElement('img');
+    image.classList.add('menu-image');
     image.src = imageSRC;
     return image;
 }

@@ -16,6 +16,7 @@ function createParagraph(content) {
 
 function createImage(imageSRC) {
     const image = document.createElement('img');
+    image.classList.add('contact-image');
     image.src = imageSRC;
     return image;
 }
