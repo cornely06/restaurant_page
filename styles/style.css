@@ -26,20 +26,21 @@ html {
     color: var(--main-font-color);
 }
 
-.heading {
+.header {
     padding: 3em;
     background-color:var(--section-backgrounds);
     text-align: center;
 }
 
-.heading h1 {
+.header h1 {
     font-family: "Satisfy-Regular";
     font-size: 5em;
 }
 
-.heading nav {
+.header nav button {
     font-family: "Concert-One";
     font-size: 2.5em;
+    margin: 0.3em;
 }
 
 button, input[type="submit"], input[type="reset"] {
