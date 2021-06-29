@@ -31,6 +31,7 @@ function createNavButton(content, id, pageLoad) {
     button.textContent = content;
     button.id = id;
     button.addEventListener('click', clearContent);
+    button.addEventListener('click', removeBorder);
     button.addEventListener('click', pageLoad);
     return button;
 }
@@ -38,6 +39,11 @@ function createNavButton(content, id, pageLoad) {
 function clearContent() {
     const content = document.querySelector('#content');
     while (content.firstChild) {content.removeChild(content.firstChild);}
+}
+
+function removeBorder() {
+    const highlighted = document.getElementsByClassName('current-nav');
+    while (highlighted.length > 0) {highlighted[0].classList.remove('current-nav');}
 }
 
 function init() {
