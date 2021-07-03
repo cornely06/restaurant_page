@@ -70,13 +70,32 @@ body {
     text-align: center;
 }
 
+.home {
+    animation: fadeIn 1.5s;
+}
+
 .contact {
-    text-align: left;
     margin: 0 2em;
+    animation: fadeIn 1.5s;
+}
+
+.contact p {
+    text-align: left;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
 }
