@@ -34,12 +34,10 @@ html {
 
 .header h1 {
     font-family: "Satisfy-Regular";
-    font-size: 5em;
 }
 
 .header nav button {
     font-family: "Concert-One";
-    font-size: 2.5em;
     margin: 0.3em;
 }
 
@@ -70,25 +68,6 @@ body {
     background-attachment: fixed;
     background-position: center center;
     text-align: center;
-}
-
-#content {
-    max-width: 700px;
-    min-height: 500px;
-    margin: 3em auto;
-    background-color:var(--section-backgrounds);
-    padding: 1em 0 3em 0;
-}
-
-#content p {
-    padding: 0.5em;
-    font-size: 1.5em;
-}
-
-.home-image, .contact-image {
-    width: 100%;
-    max-width: 500px;
-    margin: 1em 0;
 }
 
 .contact {
